@@ -1,26 +1,34 @@
 * {
     box-sizing: border-box;
+    font-family: 'Monda', sans-serif;;
 }
 
 header {
-    background-color: black;
-    border: solid 2px;
+    background-color: #797EF6;
+    border: solid black 2px;
     color:aliceblue;
     font-size: 40px;
     padding: 40px;
     text-align: center;
+    color:azure;
 }
+
+.container {
+    display: inline;
+    font-weight: bold;
+    font-size: 15px;
+}
+
 .current {
-    display: center;
-    text-align: center;
-    justify-items: center;
+    text-align: center;  
 }
 
 .main {
-    display: inline;
-    border: solid 2px;
     text-align: center;
 }
+ img{
+    border: 2px solid blanchedalmond;
+ }
 
 .weather {
     padding-top: 10px;

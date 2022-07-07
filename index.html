@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monda&display=swap" rel="stylesheet">
     <title>Weather App</title>
 </head>
 
@@ -13,12 +16,16 @@
 
     <header>Weather Dashboard</header>
 
-    <section class="main">
-        <h1 class="current">City Name<p id= "currentDay">Date</p></h1>
+    <section class="main"> 
+        <div class="container">
+        <h1 class="current">City Name</h1>
+        <p class="date">Date</p>
+        <img src="" class="icon" alt="weathericon">
         <p class="temp">Temp: F</p>
         <p class="wind">Wind Speed: MPH</p>
         <p class="humid">Humidity: %</p>
         <p class="uv">UV Index Color Code</p>
+        </div>
     </section>
 
    <section class="weather">
