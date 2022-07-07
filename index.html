@@ -1,30 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Weather App</title>
 </head>
+
 <body>
 
     <header>Weather Dashboard</header>
-    <section>
-        <h1>CURRENT forecast: City and Date</h1>
-        <p>Temp</p>
-        <p>Wind</p>
-        <p>Humidity</p>
-        <p>UV Index</p>
-    </section>
-    <section>
-        <h1>5 day forecast</h1>
+
+    <section class="main">
+        <h1 class="current">City Name<p id= "currentDay">Date</p></h1>
+        <p class="temp">Temp: F</p>
+        <p class="wind">Wind Speed: MPH</p>
+        <p class="humid">Humidity: %</p>
+        <p class="uv">UV Index Color Code</p>
     </section>
 
-    <aside>
-     <h3>Saved Searches</h3>
-     <form></form>
-     <button></button>
-    </aside>
+   <section class="weather">
+        <div class="container">
+            <h2>5-Day Forecast:</h2>
+        <div class=”forecasts”>
+        <p class="d1">Day 1</p>
+        <p class="d2">Day 2</p>
+        <p class="d3">Day 3</p>
+        <p class="d4">Day 4</p>
+        <p class="d5">Day 5</p>
+        </div>
+        </div>
+    </section> 
+
+    <section class="sidebar">
+        <h3>Search for a City:</h3>
+     <input type="text" class="inputValue" placeholder="Enter a city">
+     <button class="search">Search</button>
+     </section>
+
+<script type = "text/JavaScript" src= "https://MomentJS.com/downloads/moment.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>

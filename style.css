@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    border: solid 2px;
+    color:aliceblue;
+    font-size: 40px;
+    padding: 40px;
+    text-align: center;
+}
+.current {
+    display: center;
+    text-align: center;
+    justify-items: center;
+}
+
+.main {
+    display: inline;
+    border: solid 2px;
+    text-align: center;
+}
+
+.weather {
+    padding-top: 10px;
+    margin-left: 20% ;
+    display: flex;
+    border: solid 2px;
+    text-align: center;
+} 
+
+.d1, .d2, .d3, .d4, .d5 {
+    border: solid 2px;
+    display: inline-block;
+    width: 10rem;
+    height: 15rem;
+    margin: 5px;
+    display: inline-flex;
+}
+
+.inputValue {
+    border-radius: 5px;
+    padding: 10px;
+    width:200px;
+}
+
+.search {
+margin-top: 10px;
+width: 200px;
+height: 25px;
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: absolute;
+  left: 5;
+  top: 30%;
+  padding-top: 5px;
+  background-color: white;
+}
