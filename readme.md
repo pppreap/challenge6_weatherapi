@@ -1,7 +1,7 @@
 # Challenge 6 //  Server-Side APIs Challenge: Weather Dashboard
 
 Using third party APIs and HTML and CSS, a weather dashboard application will be created that allow users to see the weather forecast for multiple location. This application will run in the browser.
-Link to [Application]:(https://pppreap.github.io/challenge6_weather/)
+Link to [Application]:(https://pppreap.github.io/challenge6_weatherapi/)
 
 # User Story
 
@@ -32,16 +32,16 @@ WHEN the user **click on a city in the search history**
 THEN the user again is presented with **current and future conditions for that city.**
 
 ### Assets
-These are images of the working dashboard application.
+This is an image of the working dashboard application.
 ![Search of current forecast](./images/search.png)
 
 
 #### Links
-[Github Repository](https://github.com/pppreap/challenge6_weather) 
+[Github Repository](https://github.com/pppreap/challenge6_weatherapi) 
 ///
-[Link to Weather Dashboard](https://pppreap.github.io/challenge6_weather/)
+[Link to Weather Dashboard](https://pppreap.github.io/challenge6_weatherapi/)
 
 #### Credits
-Original Start Code from Michigan State University Coding Boot Camp 2022.
+User Story Criteria from Michigan State University Coding Boot Camp 2022.
 [https://openweathermap.org/api]
-[https://]
+
