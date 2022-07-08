@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    font-family: 'Monda', sans-serif;;
+    font-family: 'Monda', sans-serif;
+    font-size: 15px;
 }
 
 header {
@@ -15,6 +16,7 @@ header {
 
 .container {
     display: inline;
+    text-align: center;
     font-weight: bold;
     font-size: 15px;
 }
@@ -34,7 +36,6 @@ header {
     padding-top: 10px;
     margin-left: 20% ;
     display: flex;
-    border: solid 2px;
     text-align: center;
 } 
 
@@ -50,21 +51,46 @@ header {
 .inputValue {
     border-radius: 5px;
     padding: 10px;
-    width:200px;
+    width:75%;
 }
 
 .search {
 margin-top: 10px;
-width: 200px;
-height: 25px;
+width: 75%;
+height: 35px;
 }
 
 .sidebar {
-  height: 100%;
-  width: 200px;
-  position: absolute;
-  left: 5;
+  text-align: center;
+  border: solid 2px;
+  height: 30%;
+  width: 20%;
+  position: fixed;
+  padding-right: 20px;
   top: 30%;
   padding-top: 5px;
   background-color: white;
+}
+
+h3 {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.forecast {
+    text-align: center;
+    border: solid 5px;
+    justify-content: space-between;
+}
+
+h2{
+    color:#797EF6;
+    font-size: 20px;
+    text-align: left;
+}
+
+#uv {
+    text-align:center; 
+    vertical-align: middle;
+    display: table-cell; 
 }

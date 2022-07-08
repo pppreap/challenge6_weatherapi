@@ -33,9 +33,8 @@ THEN the user again is presented with **current and future conditions for that c
 
 ### Assets
 These are images of the working dashboard application.
-![Start of the application](/images/)
-![Search of current forecast](/images/)
-![Saved weather forecast](/images/)
+![Search of current forecast](./images/search.png)
+
 
 #### Links
 [Github Repository](https://github.com/pppreap/challenge6_weather) 
